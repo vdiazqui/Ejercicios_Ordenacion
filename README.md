@@ -4,6 +4,25 @@
 
 # 1.) Ordenacion por Insercion Dicotomica
 # 2.) Una ordenación topológica
+# Ordenación por Inserción Dicotómica
+
+Este proyecto implementa un algoritmo para ordenar una lista utilizando el método de inserción dicotómica con búsqueda binaria para encontrar las posiciones correctas de inserción.
+
+## Introducción
+
+El objetivo de este proyecto es implementar un método de ordenación que combine la eficiencia de la búsqueda binaria con el método de inserción. El algoritmo sigue estos pasos:
+
+1. **Recorrido Inicial:**
+   - Se recorre la lista desde el segundo elemento hasta el final.
+   - Cada elemento se trata como una "clave" que debe colocarse en el lugar correcto dentro de la sección ya ordenada.
+
+2. **Búsqueda de Posición:**
+   - Para cada "clave", se usa la técnica de búsqueda binaria para localizar la posición exacta donde debe insertarse dentro de la parte previamente ordenada.
+   - La búsqueda binaria descarta la mitad de las posiciones posibles en cada paso.
+
+3. **Inserción y Desplazamiento:**
+   - Una vez identificada la posición correcta, la clave se inserta ahí.
+   - Los elementos existentes entre esa posición y la posición original de la clave se desplazan para hacer espacio.
 
 # 3.) Completar las especificaciones
 Este proyecto implementa un algoritmo que verifica si un segmento de una lista ha sido explorado correctamente, según un conjunto de reglas específicas.
