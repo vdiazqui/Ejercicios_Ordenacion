@@ -3,9 +3,6 @@
 ### 2/05/24
 
 # 1.) Ordenacion por Insercion Dicotomica
-# 2.) Una ordenación topológica
-# Ordenación por Inserción Dicotómica
-
 Este proyecto implementa un algoritmo para ordenar una lista utilizando el método de inserción dicotómica con búsqueda binaria para encontrar las posiciones correctas de inserción.
 
 ## Introducción
@@ -23,6 +20,29 @@ El objetivo de este proyecto es implementar un método de ordenación que combin
 3. **Inserción y Desplazamiento:**
    - Una vez identificada la posición correcta, la clave se inserta ahí.
    - Los elementos existentes entre esa posición y la posición original de la clave se desplazan para hacer espacio.
+
+# 2.) Una ordenación topológica 
+
+Este proyecto implementa un algoritmo de ordenación topológica utilizando el algoritmo de Kahn para ordenar una serie de tareas con restricciones de precedencia.
+
+## Introducción
+
+La ordenación topológica es un método para organizar tareas que dependen unas de otras. El algoritmo de Kahn proporciona un enfoque eficiente usando un grafo dirigido acíclico (DAG). 
+
+### Pasos Principales:
+
+1. **Construcción del Grafo:** 
+   - Se crea una representación de las tareas usando listas de adyacencia para modelar las dependencias.
+
+2. **Cálculo de Grados de Entrada:**
+   - Cada nodo (tarea) mantiene un conteo del número de nodos que dependen de él, conocido como el grado de entrada.
+
+3. **Cola de Nodos Sin Dependencias:**
+   - Se utiliza una cola para manejar los nodos con un grado de entrada cero, indicando que no tienen dependencias.
+
+4. **Proceso de Ordenación:**
+   - Se saca cada nodo de la cola, se agrega al orden resultante y se reducen los grados de entrada de sus nodos sucesores.
+   - Los nodos sucesores con grado de entrada reducido a cero se agregan a la cola para su procesamiento posterior.
 
 # 3.) Completar las especificaciones
 Este proyecto implementa un algoritmo que verifica si un segmento de una lista ha sido explorado correctamente, según un conjunto de reglas específicas.
