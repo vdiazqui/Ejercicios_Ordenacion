@@ -1,5 +1,5 @@
 # Ejercicios Ordenacion
-[Link al repositorio:](https://github.com/vdiazqui/Ejercicios_Ordenacion.git)
+[Link al repositorio: Ejercicios_Ordenacion](https://github.com/vdiazqui/Ejercicios_Ordenacion.git)
 ## Virginia Diaz Quilez
 ### 2/05/24
 
